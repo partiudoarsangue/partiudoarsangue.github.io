@@ -20,6 +20,5 @@ jobs:
     - name: GitHub Pages Deploy
       uses: maxheld83/ghpages@v0.2.1
       env:
-        GITHUB_REF: refs/heads/development
         GH_PAT: ${{secrets.GH_PAT}}
         BUILD_DIR: ./dist
