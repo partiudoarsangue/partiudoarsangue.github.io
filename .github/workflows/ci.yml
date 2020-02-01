@@ -15,5 +15,7 @@ jobs:
 
     - name: Install dependencies
       run: npm install
+    - name: Generate page
+      run: npm run generate
     - name: Deploy page
       run: npm run deploy
